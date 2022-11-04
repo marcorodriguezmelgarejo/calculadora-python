@@ -1,3 +1,9 @@
+def potencia(n1, n2):
+    return n1**n2
+
+def raiz(n):
+    return n**(0.5)
+
 def menu_principal():
     try:
         operacion = int(input("Ingrese el numero de operacion"))
