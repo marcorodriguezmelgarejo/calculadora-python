@@ -1,3 +1,12 @@
+def sumar (num1, num2):
+    return num1 + num2
+
+def restar (num1, num2):
+    return num1 - num2
+
+def multiplicar (num1, num2):
+    return num1 * num2
+
 def menu_principal():
     try:
         operacion = int(input("Ingrese el numero de operacion"))
@@ -24,3 +33,5 @@ def menu_principal():
             resultado = "Operacion invalida"
 
     print(resultado)
+
+menu_principal()
