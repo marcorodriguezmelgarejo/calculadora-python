@@ -1,8 +1,11 @@
 def potencia(n1, n2):
     return n1**n2
 
-def raiz(n):
-    return n**(0.5)
+def raiz(n1, n2=0):
+    if n1<0:
+        raise ValueError("El numero es menor que cero")
+    else:
+        return n1**(0.5)
 
 def menu_principal():
     try:
@@ -30,3 +33,5 @@ def menu_principal():
             resultado = "Operacion invalida"
 
     print(resultado)
+
+menu_principal()
